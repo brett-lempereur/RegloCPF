@@ -51,3 +51,9 @@ return values can be found in [RegloCPF.h](RegloCPF.h).
 
 [Further examples](examples/) are included with the library.
 
+## Development
+
+The functionality in the library is fairly minimal, and the priority is to
+implement features that we need for an experiment first.  After this, I'll
+work through and test the remainder of the protocol from the Reglo-CPF
+manual.
