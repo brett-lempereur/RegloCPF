@@ -27,7 +27,7 @@ const char RESPONSE_TIMEOUT = -1;
 // Common request and confirm pattern as a macro.
 #define REQUEST_AND_CONFIRM(command, ...) { \
         int __request_code = request(command, ##__VA_ARGS__); \
-        if (__request_code != REGLO_OK) return __request_code; \
+        if (__request_code != RESPONSE_OK) return __request_code; \
         return confirm(); \
     }
 
