@@ -16,7 +16,7 @@ const uint8_t PIN_LED = 13;
 /**
  * Start the pump, pause for a second, and stop the pump.
  */
-int setup()
+void setup()
 {
 
     // Initialise the LED to use for communication.
@@ -46,7 +46,7 @@ int setup()
 /**
  * Do nothing here.
  */
-int loop()
+void loop()
 {
     delay(10);
 }
